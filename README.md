@@ -12,5 +12,5 @@ On Ubuntu 22.04 with an AMD GPU:
 Using the GCC compilation suite with an Nvidia GPU:
 - `g++-11 -std=c++17 -fopenmp -foffload=nvptx-none -o app.exe ompDeviceMemoryResource.cpp`
 
-- Using the GCC compilation suite with an AMD GPU:
+Using the GCC compilation suite with an AMD GPU:
 - `g++-11 -std=c++17 -fopenmp -foffload=amdgcn-amdhsa -o app.exe ompDeviceMemoryResource.cpp`
